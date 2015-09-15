@@ -14,7 +14,7 @@ public class Client {
 
 	/* CONSTRUCTOR */
 	public Client(String serverName, int serverPort) {
-		System.out.println("Establishing connection. Please waait ...");
+		System.out.println("Establishing connection. Please wait ...");
 		try {
 			socket = new Socket(serverName, serverPort);
 			System.out.println("Connected: " + socket);

@@ -4,7 +4,9 @@ Jadi repositori ini dibuat untuk menyimpan tugas mata kuliah II3160 - Pemrograma
 
 Sampai pada tanggal 16 September 2015, kami telah membuat dua versi socket client-server programming menggunakan dua bahasa yang berbeda yaitu java dan python. Jadi pada program dalam bahasa python, server hanya bisa menghandle satu client dalam satu waktu, akan tetapi client lain yang ingin membuat koneksi dapat menunggu sampai client sebelumnya memutuskan hubungan dengan server
 
-Pada saat koneksi pertama, server memeriksa file-file berekstensi .txt pada direktori Text dan mengirimkan nama-nama tersebut kepada client. Kemudian, client dapat mengirimkan request berupa angka yang merepresentasikan nama file tersebut. Apabila input salah maka server akan mengirimkan pesan kesalahan. Apabila terdapat file yang bersangkutan, maka server akan membaca file tersebut dan mengirimkan isinya kepada client.
+Pada saat koneksi pertama, server memeriksa file-file berekstensi .txt pada direktori Text dan mengirimkan nama-nama tersebut kepada client. Kemudian, client dapat mengirimkan request berupa angka yang merepresentasikan nama file tersebut. Apabila input salah maka server akan mengirimkan pesan kesalahan. Apabila terdapat file yang bersangkutan, maka server akan membaca file tersebut dan mencetak isinya pada terminal client.
+
+Pada tanggal 17 September 2015, kami telah membuat versi ketiga dari program client-server yang memungkinkan server mengirim file berekstensi .txt kepada folder milik client.
 
 Sekian, terimakasih!
 

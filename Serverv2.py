@@ -1,6 +1,6 @@
 # Name/NIM	: Nicholas Posma Nasution/18213008 - Indra Nicolosi Waskita/18213041
 # Day, Date	: Wednesday, 16 September 2015
-# File		: server.py
+# File		: Serverv2.py
 
 import SocketServer, threading, sys, os
 

@@ -8,7 +8,7 @@ Pada saat koneksi pertama, server memeriksa file-file berekstensi .txt pada dire
 
 Pada tanggal 17 September 2015, kami telah membuat versi ketiga dari program client-server yang memungkinkan server mengirim file berekstensi .txt kepada folder milik client.
 
-Tanggal 29 September 2015, kami telah membuat program WebpagesDownloader.java yang mampu mendownload webpage yang dituju kemudian menampilkan seluruh hyperlink yang terdapat pada laman tersebut dan mendownload seluruh webpage yang dituju hyperlink yang ada di laman itu. Kami menggunakan library jsoup-1.8.3.jar yang dapat diperoleh secara gratis. Library ini digunakan untuk melakukan parser html. Untuk mengkompilasi file ini pada cmd prmpt gunakan instruksi 'javac "directoryjsoup-1.8.3.jar" WebpagesDownloader.java' dan untuk menjalankan gunakan instruksi 'java "directoryjsoup-1.8.3.jar" WebpagesDownloader'.
+Tanggal 29 September 2015, kami telah membuat program WebpagesDownloader.java yang mampu mendownload webpage yang dituju kemudian menampilkan seluruh hyperlink yang terdapat pada laman tersebut dan mendownload seluruh webpage yang dituju hyperlink yang ada di laman itu. Kami menggunakan library jsoup-1.8.3.jar yang dapat diperoleh secara gratis. Library ini digunakan untuk melakukan parser html. Untuk mengkompilasi file ini pada cmd prmpt gunakan instruksi 'javac -classpath "directoryjsoup-1.8.3.jar" WebpagesDownloader.java' dan untuk menjalankan gunakan instruksi 'java -classpath "directoryjsoup-1.8.3.jar" WebpagesDownloader'.
 
 Sekian, terimakasih!
 

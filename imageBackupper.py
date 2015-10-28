@@ -2,20 +2,24 @@
 # Day, Date	: Tuesday, 27 October 2015
 # File		: imageBackupper.py
 
+# Library
 import urllib
 import urllib2
 import os
 import sys
-
 from bs4 import BeautifulSoup
 
+# Algorithm
+# Selecting Webpage
 sys.stdout.write("Target webpage : ")
 url = sys.stdin.readline()
 url = url.rstrip('\n')
 
+# Opening Webpage
 resp = urllib2.urlopen(url)
 soup = BeautifulSoup(resp.read())
 
+# Parsing Webpage to Get Images
 counter = 1
 
 for anchor in soup.findAll('img', src = True):
@@ -26,4 +30,5 @@ for anchor in soup.findAll('img', src = True):
 		urllib.urlretrieve(link, filename)
 		counter = counter + 1
 
+# Backupping Images 
 print os.system("rsync -a --progress --include '*/' --include '*.jpg' --exclude '*' /home/nicolosi/Desktop /home/nicolosi/Documents")

@@ -31,4 +31,4 @@ for anchor in soup.findAll('img', src = True):
 		counter = counter + 1
 
 # Backupping Images 
-print os.system("rsync -a --progress --include '*/' --include '*.jpg' --exclude '*' /home/nicolosi/Desktop /home/nicolosi/Documents")
+print os.system("rsync -a --progress --include '*/' --include '*.jpg' --exclude '*' /Desktop/ /home/nicolosi/Documents")

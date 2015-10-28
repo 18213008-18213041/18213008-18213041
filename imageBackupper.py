@@ -9,11 +9,29 @@ import os
 import sys
 from bs4 import BeautifulSoup
 
+# Function
+def confirmAction():
+	choice = raw_input("Continue? Yes/No\n")
+	global exitCondition
+	if (choice == "Yes"):
+		exitCondition = 0
+		return exitCondition
+	else:
+		if (choice == "No"):
+			exitCondition = 1
+			return exitCondition
+		else:
+			print "Please answer with Yes or No."
+			confirmAction()
+
 # Algorithm
 # Selecting Webpage
-sys.stdout.write("Target webpage : ")
-url = sys.stdin.readline()
-url = url.rstrip('\n')
+exitCondition = 1
+while (exitCondition != 0):
+	sys.stdout.write("Target webpage : ")
+	url = sys.stdin.readline()
+	url = url.rstrip('\n')
+	confirmAction()
 
 # Opening Webpage
 resp = urllib2.urlopen(url)
@@ -31,4 +49,4 @@ for anchor in soup.findAll('img', src = True):
 		counter = counter + 1
 
 # Backupping Images 
-print os.system("rsync -a --progress --include '*/' --include '*.jpg' --exclude '*' /Desktop/ /home/nicolosi/Documents")
+print os.system("rsync -a --progress --include '*/' --include '*.jpg' --exclude '*' /home/nicolosi/Desktop/ /home/nicolosi/Documents")

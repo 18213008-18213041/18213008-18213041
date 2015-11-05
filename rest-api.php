@@ -1,7 +1,10 @@
 <?php
+	// Name/NIM		: Nicholas Posma Nasution/18213008 - Indra Nicolosi Waskita/18213041
+	// Date			: 5 November 2015
+	
 	function get_info_by_id($id) {
 		$info = array();
-		
+
 		$servername = "localhost";
 		$username = "root";
 		$password = "";

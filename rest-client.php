@@ -10,7 +10,7 @@
 		echo "<br>";
 	}
 ?>
-<table>
+<table border = "1">
 	<tr>
 		<td>ID</td>
 		<td><?php echo $info["id"]?></td>
@@ -33,7 +33,7 @@
 	</tr>
 </table>
 <br>
-<table>
+<table border = "1">
 	<tr>
 		<td>ID</td><td>Name</td><td>Address</td><td>Latitude</td><td>Longitude</td>
 	</tr>

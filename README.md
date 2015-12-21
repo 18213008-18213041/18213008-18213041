@@ -10,6 +10,8 @@ Pada tanggal 17 September 2015, kami telah membuat versi ketiga dari program cli
 
 Tanggal 29 September 2015, kami telah membuat program WebpagesDownloader.java yang mampu mendownload webpage yang dituju kemudian menampilkan seluruh hyperlink yang terdapat pada laman tersebut dan mendownload seluruh webpage yang dituju hyperlink yang ada di laman itu. Kami menggunakan library jsoup-1.8.3.jar yang dapat diperoleh secara gratis. Library ini digunakan untuk melakukan parser html. Untuk mengkompilasi file ini pada cmd prmpt gunakan instruksi 'javac -classpath "directoryjsoup-1.8.3.jar" WebpagesDownloader.java' dan untuk menjalankan gunakan instruksi 'java -classpath "directoryjsoup-1.8.3.jar" WebpagesDownloader'.
 
+Tanggal 21 Desember 2015, kami telah membuat web service sebagai tugas Ujian Akhir Semester mata kuliah II3160 - Pemrograman Integratif. Kami membuat tiga buah layanan, layanan yang pertama memungkinkan pengguna melakukan search, sort, dan filter data. Layanan yang kedua memungkinkan pengguna untuk memasukkan data ke database server dengan mengirimkan file berekstensikan .csv yang sesuai format. Layanan yang terakhir memungkinkan pengguna untuk melihat jadwal akademik yang ada pada Institut Teknologi Bandung.
+
 Sekian, terimakasih!
 
 Notes: Maaf Pak Baskara, kami tidak pakai bahasa Inggris. Kami juga sudah membuat program server-client dimana banyak client dapat mengirim data, karena koneksi dibuat hanya ketika mengirimkan saja dan dilakukan untuk setiap line data. Apabila perlu untuk dimasukkan ke dalam repositori dan ada komentar yang ingin disampaikan mohon dikirim ke email salah satu anggota kelompok kami nicolosinapitupulu@gmail.com Terimakasih Bapak!

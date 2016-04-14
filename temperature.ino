@@ -1,7 +1,7 @@
 #include <SoftwareSerial.h>  
-#define SSID "andrawifi"    // SSID
-#define PASS "20160128"                // Password
-#define HOST "192.168.88.13"  // Webhost
+#define SSID ""    // SSID
+#define PASS ""                // Password
+#define HOST ""  // Webhost
 #define DEBUG true
 
 float temp;

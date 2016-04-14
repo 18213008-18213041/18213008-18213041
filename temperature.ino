@@ -32,7 +32,7 @@ void connectWifi() {
   //Set-wifi
 /*  sendCommand("AT+RST\r\n",2000,DEBUG); // reset module
   sendCommand("AT+CWMODE=1\r\n",1000,DEBUG); // configure as access point
-  sendCommand("AT+CWJAP=\"andrawifi\",\"20160128\"\r\n",3000,DEBUG);
+  sendCommand("AT+CWJAP=\" \",\" \"\r\n",3000,DEBUG);
   delay(5000);
   sendCommand("AT+CIFSR\r\n",1000,DEBUG); // get ip address
   delay(2000); */
